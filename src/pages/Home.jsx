@@ -1,9 +1,10 @@
 import { Outlet } from "react-router-dom";
+import { Navbar } from "../components";
 const Home = () => {
-    return <div>
-                <h2>Sidebar content</h2>
+    return <main>
+                <div className="navbar-div"><Navbar/></div>
                 <Outlet />
-            </div> 
+            </main> 
 }
 
 export default Home;
