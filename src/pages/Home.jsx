@@ -1,5 +1,9 @@
+import { Outlet } from "react-router-dom";
 const Home = () => {
-    return <h2>Home</h2>
+    return <div>
+                <h2>Sidebar content</h2>
+                <Outlet />
+            </div> 
 }
 
 export default Home;
