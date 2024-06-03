@@ -20,9 +20,17 @@ const Sidebar = () => {
             window.removeEventListener('resize', resizeHandler)
         }
     })
+
+    if (isLargeScreen) {
+        return(
+            <aside className="sidebar-container">
+            Sidebar
+            </aside>
+        )
+    }
     return <div className={isSidebarOpen && !isLargeScreen?"sidebar-overlay show-sidebar": "sidebar-overlay"}
         onClick={closeSidebar}
-    >
+            >
         <aside className="sidebar-container">
             Sidebar
         </aside>
