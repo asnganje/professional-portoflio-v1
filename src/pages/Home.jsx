@@ -8,7 +8,7 @@ import Skills from "./Skills";
 import Awards from "./Awards";
 import Education from "./Education";
 import Contact from "./Contact";
-import { useState } from "react";
+
 const Home = () => {
 
 
@@ -29,7 +29,7 @@ const Home = () => {
                     <Element name="landing">
                         <Landing />
                     </Element>
-                    <Element name="about" className="section-about">
+                    <Element name="about">
                         <About />
                     </Element>
                     <Element name="experience">
@@ -44,10 +44,10 @@ const Home = () => {
                     <Element name="awards">
                         <Awards />
                     </Element>
-                    <Element name="education">
+                    <Element name="education" className="edu">
                         <Education />
                     </Element>
-                    <Element name="contact">
+                    <Element name="contact"  className="cont">
                         <Contact />
                     </Element>
                 </div>

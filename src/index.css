@@ -170,3 +170,31 @@ main {
     background-color: #fafafa;
     padding-top: 15%;
 }
+
+.edu, 
+.cont, 
+.abt,
+.award,
+.exp,
+.skill,
+.project {
+    height: 100vh;
+    position:relative; 
+    top: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .edu, 
+    .cont, 
+    .abt,
+    .award,
+    .exp,
+    .skill,
+    .project {
+        height: 100vh;
+        position:relative; 
+        top: 5rem;
+    }
+
+}
+
