@@ -1,15 +1,15 @@
 const Aside = ({data}) => {
     return(
         <aside className="sidebar-container">
-            <ul>
+            <ul className="sidebar-ul">
                 {
                     data.map((item)=> {
-                        const {id, url, text, icon} = item
+                        const {id, url, text, icon, color} = item
                         return (
-                            <li key={id}>
+                            <li key={id} className="li">
                                 <a href={url}>
-                                    {icon}
-                                    {text}
+                                    <span style={{background: 'transparent', color: `${color}`, fontSize: '1.5rem'}}>{icon}</span>
+                                    <span className="txt">{text}</span>
                                 </a>
                             </li>
                         )
