@@ -8,7 +8,8 @@ import {
         Landing, 
         Resume, 
         Skills, 
-        Projects 
+        Projects,
+        Experience 
       } from './pages'
 
 const router = createBrowserRouter([
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
     {
       path: 'about',
       element: <About />
+    },
+    {
+      path: 'experience',
+      element: <Experience />
     }
   ]
   },
