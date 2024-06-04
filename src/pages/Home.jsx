@@ -29,7 +29,7 @@ const Home = () => {
                     <Element name="landing">
                         <Landing />
                     </Element>
-                    <Element name="about">
+                    <Element name="about" className="section-about">
                         <About />
                     </Element>
                     <Element name="experience">
