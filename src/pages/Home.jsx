@@ -44,10 +44,10 @@ const Home = () => {
                     <Element name="awards">
                         <Awards />
                     </Element>
-                    <Element name="education" className="edu">
+                    <Element name="education">
                         <Education />
                     </Element>
-                    <Element name="contact"  className="cont">
+                    <Element name="contact">
                         <Contact />
                     </Element>
                 </div>
