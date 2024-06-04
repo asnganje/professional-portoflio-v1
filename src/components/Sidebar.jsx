@@ -31,7 +31,9 @@ const Sidebar = () => {
     return <div className={isSidebarOpen && !isLargeScreen?"sidebar-overlay show-sidebar": "sidebar-overlay"}
         onClick={closeSidebar}
             >
-            <Aside data={data}/>
+            <div className="sidebar-in-small-screen-container">
+                <Aside data={data}/>
+            </div>
     </div>
 }
 
