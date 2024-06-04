@@ -1,5 +1,5 @@
 const Experience = () => {
-    return <h2>Experience</h2>
+    return <h2 style={{height: '100vh'}}>Experience</h2>
 }
 
 export default Experience;

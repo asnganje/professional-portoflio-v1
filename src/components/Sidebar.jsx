@@ -3,7 +3,7 @@ import { useGlobalContext } from "../context";
 import {data} from '../data'
 import Aside from "./Aside";
 
-const Sidebar = () => {
+const Sidebar = ({scrollTo}) => {
     const {isSidebarOpen, closeSidebar} = useGlobalContext()
     const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth >= 992)
 
@@ -25,14 +25,14 @@ const Sidebar = () => {
 
     if (isLargeScreen) {
         return(
-            <Aside data={data}/>
+            <Aside data={data} scrollTo={scrollTo}/>
         )
     }
     return <div className={isSidebarOpen && !isLargeScreen?"sidebar-overlay show-sidebar": "sidebar-overlay"}
         onClick={closeSidebar}
             >
             <div className="sidebar-in-small-screen-container">
-                <Aside data={data}/>
+                <Aside data={data} scrollTo={scrollTo}/>
             </div>
     </div>
 }

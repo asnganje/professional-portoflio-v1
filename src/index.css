@@ -109,7 +109,7 @@ main {
 
     .outlet {
         width: 82vw;
-        background-color: grey;
+        background-color: rgb(237, 234, 234);
     }
     .navbar-div {
         background: #fafafa;

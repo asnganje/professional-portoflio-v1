@@ -1,4 +1,6 @@
-const Aside = ({data}) => {
+import { Link } from "react-router-dom";
+
+const Aside = ({data, scrollTo}) => {
     return(
         <aside className="sidebar-container">
             <ul className="sidebar-ul">
@@ -7,10 +9,10 @@ const Aside = ({data}) => {
                         const {id, url, text, icon, color} = item
                         return (
                             <li key={id} className="li">
-                                <a href={url}>
+                                <Link to={url} onClick={()=>scrollTo(url)}>
                                     <span style={{background: 'transparent', color: `${color}`, fontSize: '1.5rem'}}>{icon}</span>
                                     <span className="txt">{text}</span>
-                                </a>
+                                </Link>
                             </li>
                         )
                     })
