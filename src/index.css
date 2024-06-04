@@ -101,6 +101,7 @@ main {
     .navbar-div {
         height: 20vh;
         padding: 1rem;
+        border-bottom: 1px solid grey;
     }
 
     .outlet {
@@ -116,4 +117,29 @@ main {
 .sidebar-container {
     width: 10vw;
     height: 80vh;
+}
+
+.sidebar-ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1.5rem;
+    padding: 1rem;
+    font-family: sans-serif;
+}
+
+
+.li, a{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.txt {
+    cursor: pointer;
+}
+
+.li a:hover {
+    font-weight: bold;
+    font-size: 24px;
 }
