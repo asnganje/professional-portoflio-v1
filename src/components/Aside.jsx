@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Aside = ({data, scrollTo}) => {
     return(
-        <aside className="sidebar-container">
+        <aside className="sidebar-container-bg-screen">
             <ul className="sidebar-ul">
                 {
                     data.map((item)=> {

@@ -8,7 +8,9 @@ import Skills from "./Skills";
 import Awards from "./Awards";
 import Education from "./Education";
 import Contact from "./Contact";
+import { useState } from "react";
 const Home = () => {
+
 
     const scrollToSection = (section) => {
         scroller.scrollTo(section, {
@@ -21,7 +23,7 @@ const Home = () => {
     return <main>
                 <div className="navbar-sidebar-container">
                     <div className="navbar-div"><Navbar/></div>
-                <Sidebar scrollTo={scrollToSection}/>
+                <Sidebar scrollTo={scrollToSection} />
                 </div>
                 <div className="outlet">
                     <Element name="landing">

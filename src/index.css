@@ -8,12 +8,21 @@ main {
     min-height: 100vh;
 }
 .main-nav {
+    top: 0;
     display: grid;
     grid-template-columns: 1fr auto 1fr;
     align-items: start;
-    min-height: 10vh;  
+    min-height: 10vh;
+    z-index: 1000;  
 }
 
+@media screen and (max-width: 992px) {
+    .main-nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+}
 .hamburger {
     height: 50px;
     font-size: 35px;
@@ -102,12 +111,15 @@ main {
     }
 
     .navbar-div {
+        position: fixed;
+        width: 15vw;
         height: 20vh;
         padding: 1rem;
         border-bottom: 1px solid grey;
     }
 
     .outlet {
+        flex-grow: 1;
         width: 82vw;
         background-color: rgb(237, 234, 234);
     }
@@ -117,7 +129,9 @@ main {
 
 }
 
-.sidebar-container {
+.sidebar-container-bg-screen {
+    position: fixed;
+    top: 10rem;
     width: 10vw;
     height: 80vh;
 }
@@ -155,4 +169,10 @@ main {
     height: 100vh;
     background-color: #fafafa;
     padding-top: 15%;
+}
+
+.element-experience{
+    height: '100vh';
+    position:'relative'; 
+    top: '5rem';
 }
