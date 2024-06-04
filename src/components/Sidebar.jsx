@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useGlobalContext } from "../context";
+import {data} from '../data'
+import Aside from "./Aside";
 
 const Sidebar = () => {
     const {isSidebarOpen, closeSidebar} = useGlobalContext()
@@ -23,17 +25,13 @@ const Sidebar = () => {
 
     if (isLargeScreen) {
         return(
-            <aside className="sidebar-container">
-            Sidebar
-            </aside>
+            <Aside data={data}/>
         )
     }
     return <div className={isSidebarOpen && !isLargeScreen?"sidebar-overlay show-sidebar": "sidebar-overlay"}
         onClick={closeSidebar}
             >
-        <aside className="sidebar-container">
-            Sidebar
-        </aside>
+            <Aside data={data}/>
     </div>
 }
 
