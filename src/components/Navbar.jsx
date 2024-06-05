@@ -1,10 +1,10 @@
 import Logo from "./Logo";
 import Hamburg from "./Hamburg";
 
-const Navbar = () => {
+const Navbar = ({scrollTo}) => {
     return <nav className="main-nav">
                 <Hamburg />
-                <Logo />
+                <Logo scrollTo={scrollTo}/>
         </nav>
 }
 

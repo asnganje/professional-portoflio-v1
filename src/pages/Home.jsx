@@ -22,7 +22,7 @@ const Home = () => {
 
     return <main>
                 <div className="navbar-sidebar-container">
-                    <div className="navbar-div"><Navbar/></div>
+                    <div className="navbar-div"><Navbar scrollTo={scrollToSection}/></div>
                 <Sidebar scrollTo={scrollToSection} />
                 </div>
                 <div className="outlet">
