@@ -216,3 +216,39 @@ main {
 
 }
 
+.land {
+    background: black;
+    position: relative;
+}
+
+.profile-pic {
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    bottom: 5rem;
+    right: 5rem;
+    border-radius: 50%;
+    border: transparent;
+    background: transparent;
+    box-shadow: 10px 10px 15px rgb(204, 196, 196);
+    object-fit: cover;
+
+}
+
+.top-desc {
+    position: absolute;
+    font-family: sans-serif;
+    line-height: 150%;
+    font-weight: 100;
+    color: #fafafa;
+    font-size: calc(1em + 3vw);
+    padding: 3rem;
+}
+
+.things {
+    background-color: #008073;
+}
+
+.diff {
+    border-bottom: 0.3rem solid #008073;
+}
