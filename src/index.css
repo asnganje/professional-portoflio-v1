@@ -252,3 +252,7 @@ main {
 .diff {
     border-bottom: 0.3rem solid #008073;
 }
+
+.cont{
+    background-image: url('./assets//bg.png');
+}
