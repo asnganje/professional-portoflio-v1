@@ -1,5 +1,9 @@
+import { Header } from "../components";
+
 const Experience = () => {
-    return <h2 className="exp">Experience</h2>
+    return <div className="exp">
+                <Header title="Experience"/>
+        </div>
 }
 
 export default Experience;
