@@ -186,7 +186,6 @@ main {
 
 .edu, 
 .cont, 
-.abt,
 .award,
 .exp,
 .skill,
@@ -201,17 +200,21 @@ main {
 @media screen and (max-width: 992px) {
     .edu, 
     .cont, 
-    .abt,
     .award,
     .exp,
     .skill,
     .project,
     .land {
         height: 100vh;
-        /* position:relative;  */
+        position:relative; 
         /* top: 5rem; */
-        padding-top: 15vh;
+        /* padding-top: 15vh; */
         /* overflow: hidden; */
+    }
+
+    .abt{
+        display: inline-block;
+        background-image: url('./assets//bg.png');
     }
 
 }
@@ -245,6 +248,11 @@ main {
     padding: 3rem;
 }
 
+@media screen and (max-width: 992px) {
+    .top-desc {
+        margin-top: 3rem;
+    }
+}
 .things {
     background-color: #008073;
 }
@@ -274,7 +282,10 @@ main {
     text-transform: uppercase;
     padding: 20px 30px;
     color: #FFFFFF;
+    overflow: hidden;
 }
+
+
 
 .contact-details {
     display: grid;
@@ -296,6 +307,12 @@ main {
     gap: 2rem;
 }
 
+.about-div h3 {
+    display: flex;
+    gap: 1rem;
+}
+
+
 .contact-span {
     display: flex;
     align-items: center;
@@ -315,6 +332,10 @@ main {
     background-image: url('./assets//bg.png');
 }
 
+.exp {
+    background-image: url('./assets//bg.png');
+    padding-top: 2rem;
+}
 .edu-top-div {
     width: 90%;
     display: grid;
@@ -359,4 +380,39 @@ main {
 .edu-ul {
     padding-left: 3rem;
     font-size: 14px;
+}
+
+.about-div {
+    margin-left: 2rem;
+    height: 100%;
+}
+
+blockquote {
+    border-left: 5px solid #795548;
+    padding-left: 2rem;
+    padding-right: 5rem;
+    color: #795548;
+    font-size: 125%;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.about-div a {
+    font-weight: 300;
+    width: 50%;
+}
+
+.about-div a:hover {
+    font-weight: bold;
+}
+
+.about-div p {
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    font-size: 20px;
+    line-height: 2rem;
+    color: #575555;
+    font-weight: lighter;
+    margin-top: 1rem;
+    padding-right: 5rem;
 }
