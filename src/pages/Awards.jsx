@@ -1,5 +1,9 @@
+import { Header } from "../components";
+
 const Awards = () => {
-    return <h2 className="award">Awards</h2>
+    return <div className="award">
+                <Header title="Awards"/>
+        </div>
 }
 
 export default Awards;
