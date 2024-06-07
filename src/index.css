@@ -306,3 +306,11 @@ main {
     background-color: #795548;
     color: #fafafa;
 }
+
+.abt{
+    background-image: url('./assets//bg.png');
+}
+
+.edu{
+    background-image: url('./assets//bg.png');
+}
