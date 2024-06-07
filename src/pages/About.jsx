@@ -1,8 +1,11 @@
+import { Header } from "../components";
 import { useGlobalContext } from "../context";
 
 const About = () => {
     const {isSidebarOpen} = useGlobalContext()
-    return <h2 className="abt">About</h2>
+    return <div className="abt">
+            <Header title="About Us"/>
+        </div>
 }
 
 export default About;
