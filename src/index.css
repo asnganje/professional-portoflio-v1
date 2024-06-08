@@ -186,7 +186,6 @@ main {
 
 .edu, 
 .cont, 
-.award,
 .exp,
 .skill,
 .project,
@@ -200,7 +199,6 @@ main {
 @media screen and (max-width: 992px) {
     .edu, 
     .cont, 
-    .award,
     .exp,
     .skill,
     .project,
@@ -336,6 +334,11 @@ main {
     background-image: url('./assets//bg.png');
     padding-top: 2rem;
 }
+
+.award {
+    background-image: url('./assets//bg.png');
+    padding-top: 2rem;
+}
 .edu-top-div {
     width: 90%;
     display: grid;
@@ -415,4 +418,37 @@ blockquote {
     font-weight: lighter;
     margin-top: 1rem;
     padding-right: 5rem;
+}
+
+.award-top-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 3rem;
+    column-gap: 3rem;
+    padding: 3rem;
+}
+
+.div-award-item {
+    width: 100%;
+    background-color: #fff;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+    border-radius: 2rem;
+} 
+
+.div-award-item h3 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.div-award-item ul {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
