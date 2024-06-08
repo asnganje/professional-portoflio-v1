@@ -27,7 +27,7 @@ const About = () => {
                 </p>
                 <h3>
                     <strong>Current Focus:</strong>
-                    <a href="https://www.mongodb.com/resources/languages/mern-stack-tutorial" target="_blank">
+                    <a href="https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/" target="_blank">
                     The MERN Stack
                     </a>
                 </h3>
