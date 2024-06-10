@@ -54,12 +54,12 @@ const data = [
     }, 
     {
       id: nanoid(),
-      desc: 'node',
+      desc: 'nodejs',
       display:node
     },
     { 
       id: nanoid(),
-      desc: 'mongo',
+      desc: 'mongodb',
       display: mongo
     }, 
     {
