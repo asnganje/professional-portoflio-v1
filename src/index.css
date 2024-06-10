@@ -187,7 +187,7 @@ main {
 .edu, 
 .cont, 
 .exp,
-.skill,
+/* .skill, */
 .project,
 .land {
     height: 100vh;
@@ -200,7 +200,7 @@ main {
     .edu, 
     .cont, 
     .exp,
-    .skill,
+    /* .skill, */
     .project,
     .land {
         height: 100vh;
@@ -451,4 +451,67 @@ blockquote {
     padding-bottom: 3rem;
     padding-top: 1rem;
     font-family: 'Roboto', sans-serif;
+}
+
+.skill {
+  background-image: url('./assets//bg.png');
+}
+
+.main-skill-group-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1rem;
+}
+
+.div-skillgroup {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16);
+}
+
+.skill-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill-div img{
+  height: 10vh;
+  width: 10vw;
+  margin:1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .skill-div {
+    display: flex;
+    gap: 3rem;
+    margin: 1rem;
+    overflow:hidden
+  }
+  .skill-div img {
+    width: 7vw;
+  }
+}
+
+.skill-real-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  place-items: center;
+}
+
+.div-skillgroup h2{ 
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+.div-skillgroup hr{ 
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+
+.skill-real-div p {
+  text-transform: uppercase;
 }
