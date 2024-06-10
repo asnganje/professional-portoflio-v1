@@ -1,16 +1,16 @@
 import { nanoid } from "nanoid";
 import { Header } from "../components";
-import Js from '../assets/javascript.png'
-import Css from '../assets/css3.png'
-import React from '../assets/react.png'
-import Html from '../assets/html5.png'
-import Node from '../assets/nodejs.png'
-import Postgres from '../assets/postgresql.png'
-import Mongo from '../assets/mongodb.png'
-import Github from '../assets/github.png'
-import Heroku from '../assets/heroku.png'
-import Netlify from '../assets/netflify.webp'
-import Redux from '../assets/redux.png'
+import js from '../assets/javascript.png'
+import css from '../assets/css3.png'
+import react from '../assets/react.png'
+import html from '../assets/html5.png'
+import node from '../assets/nodejs.png'
+import postgres from '../assets/postgresql.png'
+import mongo from '../assets/mongodb.png'
+import github from '../assets/github.png'
+import heroku from '../assets/heroku.png'
+import netlify from '../assets/netlify.png'
+import redux from '../assets/redux.png'
 const data = [
   {
     id: nanoid(),
@@ -19,27 +19,27 @@ const data = [
       {
         id:nanoid(),
         desc: 'html',
-        display:<Html/>
+        display:html
       }, 
       {
         id: nanoid(),
-        desc: 'js',
-        display:<Js/>
+        desc: 'javascript',
+        display:js
       },
       {
         id:nanoid(),
         desc: 'css',
-        display:<Css/>
+        display:css
       }, 
       {
         id: nanoid(),
         desc: 'react',
-        display:<React />
+        display:react
       },
       { 
         id: nanoid(),
         desc: 'redux',
-        display: <Redux/>
+        display: redux
       }
     ]
   },
@@ -49,23 +49,23 @@ const data = [
     items: [
     {
       id: nanoid(),
-      desc: 'js',
-      display:<Js/>
+      desc: 'javascript',
+      display:js
     }, 
     {
       id: nanoid(),
       desc: 'node',
-      display:<Node/>
+      display:node
     },
     { 
       id: nanoid(),
       desc: 'mongo',
-      display: <Mongo/>
+      display: mongo
     }, 
     {
       id: nanoid(),
       desc: 'postgres',
-      display:<Postgres/>
+      display:postgres
     }
   ]
   },
@@ -76,17 +76,17 @@ const data = [
       {
         id: nanoid(),
         desc:'github', 
-        display: <Github/>
+        display: github
       }, 
       {
         id: nanoid(),
         desc: 'heroku',
-        display: <Heroku/>
+        display: heroku
       }, 
       {
         id: nanoid(),
-        desc: 'netlfiy',
-        display: <Netlify/>
+        desc: 'netlify',
+        display: netlify
       }
       ]
   }
@@ -94,22 +94,24 @@ const data = [
 const Skills = () => {
     return <div className="skill">
                 <Header title="skills"/>
-                <div>
+                <div className="main-skill-group-div">
                   {
                     data.map((skillGroup)=> {
                       const {id, title, items}=skillGroup
                       return(
-                        <div key={id}>
+                        <div key={id} className="div-skillgroup">
                           <h2>{title}</h2>
+                          <hr />
+                          <div className="skill-div">
                           {
                             items.map((skill)=> {
                               const {id, desc, display} = skill
                               return(
-                                  <Skill key={id} desc={desc}/>
-                                
+                                  <Skill key={id} desc={desc} display={display}/>                      
                               )
                             })
                           }
+                          </div>
                         </div>
                       )
                     })
@@ -122,7 +124,8 @@ export default Skills;
 
 const Skill = ({id, desc, display}) => {
   return(
-    <div>
+    <div className="skill-real-div">
+      <img src={display} alt={desc} />
       <p>{desc}</p>
     </div>
   )
