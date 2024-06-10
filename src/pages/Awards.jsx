@@ -10,7 +10,7 @@ const data = [
         {
         id: nanoid(),
         title: 'Employee of the month',
-        location: 'Pemba paradise resort | Dec, 2023',
+        location: 'Pemba Beach resort | Dec, 2023',
         desc:  'Presented to the employee who demonstrates the highest value, earning the Employee of the Month recognition.'
         },
         {
