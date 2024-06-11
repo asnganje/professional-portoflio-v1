@@ -1,8 +1,15 @@
 import { nanoid } from "nanoid";
+import tecafili from '../assets/tecafili.jpg';
+import rakol from '../assets/rakol.png';
+import pemba from '../assets/pemba.png';
+import microverse from '../assets/microverse.png';
+import edureka from '../assets/edureka.png';
+import cgk from '../assets/cgk.png';
 
 export const data = [
   {
     id: nanoid(),
+    logo: tecafili,
     companyUrl: 'https://tecafili.org/',
     companyName: 'TECAFILI',
     role: 'IT Support Technician',
@@ -30,6 +37,7 @@ export const data = [
   },
   {
     id: nanoid(),
+    logo: cgk,
     companyUrl: 'https://kwale.go.ke/',
     companyName: 'Kwale County Government',
     role: 'Vocational Training Officer - IT section',
@@ -53,6 +61,7 @@ export const data = [
     },
     {
       id: nanoid(),
+      logo: microverse,
       companyUrl: 'https://www.microverse.org/',
       companyName: 'Microverse Inc',
       role: 'FullStack Web Developer Trainee',
@@ -76,6 +85,7 @@ export const data = [
     },
     {
       id: nanoid(),
+      logo: rakol,
       companyUrl: 'https://raysoftwareservice.com/',
       companyName: 'Rakolkata Software service private ltd',
       role: 'FullStack Web Developer',
@@ -95,6 +105,7 @@ export const data = [
     },
     {
       id: nanoid(),
+      logo: pemba,
       companyUrl:'https://pembaparadise.com/',
       companyName: 'Pemba Beach Resort',
       role: 'Web Developer',
@@ -119,6 +130,7 @@ export const data = [
     },
     {
       id: nanoid(),
+      logo: edureka,
       companyUrl:'https://www.edureka.co/',
       companyName: 'Fullstack Internship Program - MERN Technologies',
       role: 'FullStack developer',

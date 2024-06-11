@@ -9,7 +9,11 @@ const Experience = () => {
                 <div>
                   {
                     data.map((item)=> {
-                      
+                      return(
+                        <div>
+                          
+                        </div>
+                      )
                     })
                   }
                 </div>
