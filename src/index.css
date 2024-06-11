@@ -186,7 +186,7 @@ main {
 
 .edu, 
 .cont, 
-.exp,
+/* .exp, */
 /* .skill, */
 .project,
 .land {
@@ -199,7 +199,7 @@ main {
 @media screen and (max-width: 992px) {
     .edu, 
     .cont, 
-    .exp,
+    /* .exp, */
     /* .skill, */
     .project,
     .land {
@@ -519,4 +519,83 @@ blockquote {
 .div-skillgroup h2 {
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
+}
+
+.expe-div {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 3rem;
+  margin-top: 2rem;
+  padding-bottom: 3rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  overflow: hidden;
+  opacity: 1;
+}
+
+@media screen and (min-width: 1120px) {
+  .expe-div {
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+}
+
+.exp-item {
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 3px;
+  opacity: 1000;
+}
+
+.exp-item img {
+  height: 5rem;
+  width: 7rem;
+  border-radius: 5rem;
+}
+
+.exp-item hr {
+  /* margin-left: 1vw; */
+  margin-right: 3vw;
+}
+
+.exp-item-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  place-items: center;
+  justify-items: left;
+  padding: 0.5rem;
+}
+
+.exp-div-content {
+  margin-top: 3vh;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.exp-div-content p {
+  text-align: left;
+  color: #666;
+  font-style: italic;
+  padding-bottom: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.exp-ul {
+  padding-left: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  padding-bottom: 2rem;
+}
+
+.exp-loc-period {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  background-color: rgba(0, 0, 0, 0.02);
+}
+
+.addBg {
+  background-color: skyblue;
+  border-radius: 5rem;
 }
