@@ -1,5 +1,5 @@
 const Resume = () => {
-    return <h2 style={{height: '100vh'}}>Resume</h2>
+    return <a href="https://docs.google.com/document/d/1_oBjHhGMEi20EmzREYA7pAtsfZJoHO2TNic0XwNAF48/edit?usp=sharing" target="_blank">Resume</a>
 }
 
 export default Resume;
