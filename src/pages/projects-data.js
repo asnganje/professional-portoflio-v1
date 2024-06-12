@@ -122,7 +122,7 @@ export const data = [
   {
     id: nanoid(), 
     title:'Awesome Books',
-    icon: netflix,
+    icon: books,
     desc: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list.',
     url: 'https://asnganje.github.io/awesomebookES6/',
     technologies: [
