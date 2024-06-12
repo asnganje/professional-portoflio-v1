@@ -2,13 +2,20 @@ import { Header } from "../components";
 import { nanoid } from "nanoid";
 
 const data = [
-	{
+  {
 		id: nanoid(),
-		title: 'Kenyatta University',
-		location: 'Nairobi, KE',
-		cert:  'Bsc. Software Engineering',
-		achieve: 'Second Class'
+		title: 'Edureka',
+		location: 'Bangalore, India',
+		cert:  'MERN Stack developer',
+		achieve: 'MongoDB, ExpressJs, ReactJs, NodeJs'
 	},
+  {
+    id: nanoid(),
+    title: 'Kreativstorm',
+    location: 'Berlin, Germany',
+    cert:  'FrontEnd Developer',
+    achieve: 'ReactJs, JavaScript'
+  },
 	{
 		id: nanoid(),
 		title: 'Microverse Inc',
@@ -16,20 +23,14 @@ const data = [
 		cert:  'FullStack Developer',
 		achieve: 'JavaScript, ReactJs, Ruby on Rails, Postgres'
 	},
-	{
+  {
 		id: nanoid(),
-		title: 'Kreativstorm',
-		location: 'Berlin, Germany',
-		cert:  'FrontEnd Developer',
-		achieve: 'ReactJs, JavaScript'
+		title: 'Kenyatta University',
+		location: 'Nairobi, KE',
+		cert:  'Bsc. Software Engineering',
+		achieve: 'Second Class'
 	},
-	{
-		id: nanoid(),
-		title: 'Edureka',
-		location: 'Bangalore, India',
-		cert:  'MERN Stack developer',
-		achieve: 'MongoDB, ExpressJs, ReactJs, NodeJs'
-	},
+
 ]
 
 const Education = () => {
