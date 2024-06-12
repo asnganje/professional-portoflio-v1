@@ -9,31 +9,6 @@ import movies from '../assets/movies.jpg'
 export const data = [
   {
     id: nanoid(), 
-    title:'Calculator App',
-    icon: calc,
-    desc: 'A ReactJs Single Page Application (SPA) that allows users to do simple calculations and read a math quote.',
-    url: 'https://phenomenal-sunflower-40c413.netlify.app/',
-    technologies: [
-      {
-        id: nanoid(),
-        tech: 'ReactJs'
-      },
-      {
-        id: nanoid(),
-        tech: 'JavaScript'
-      },
-      {
-        id: nanoid(),
-        tech: 'CSS3'
-      },
-      {
-        id: nanoid(),
-        tech: 'HTML5'
-      }
-    ]
-  },
-  {
-    id: nanoid(), 
     title:'Global Cryptocurrency App',
     icon: coin,
     desc: 'A React-Redux application that fetches digital currency data from a coins API. It allows users to filter information by different types of digital coins.',
@@ -121,11 +96,15 @@ export const data = [
   },
   {
     id: nanoid(), 
-    title:'Awesome Books',
-    icon: books,
-    desc: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list.',
-    url: 'https://asnganje.github.io/awesomebookES6/',
+    title:'Calculator App',
+    icon: calc,
+    desc: 'A ReactJs Single Page Application (SPA) that allows users to do simple calculations and read a math quote.',
+    url: 'https://phenomenal-sunflower-40c413.netlify.app/',
     technologies: [
+      {
+        id: nanoid(),
+        tech: 'ReactJs'
+      },
       {
         id: nanoid(),
         tech: 'JavaScript'
@@ -155,6 +134,27 @@ export const data = [
         id: nanoid(),
         tech: 'Redux'
       },
+      {
+        id: nanoid(),
+        tech: 'JavaScript'
+      },
+      {
+        id: nanoid(),
+        tech: 'CSS3'
+      },
+      {
+        id: nanoid(),
+        tech: 'HTML5'
+      }
+    ]
+  },
+  {
+    id: nanoid(), 
+    title:'Awesome Books',
+    icon: books,
+    desc: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list.',
+    url: 'https://asnganje.github.io/awesomebookES6/',
+    technologies: [
       {
         id: nanoid(),
         tech: 'JavaScript'
