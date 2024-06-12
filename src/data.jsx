@@ -57,7 +57,7 @@ export const data = [
     },
     {
         id: nanoid(),
-        url: 'resume',
+        url: 'https://docs.google.com/document/d/1_oBjHhGMEi20EmzREYA7pAtsfZJoHO2TNic0XwNAF48/edit?usp=sharing',
         text:'Resume',
         icon: <MdOutlineStickyNote2 />,
         color:'#424242'
