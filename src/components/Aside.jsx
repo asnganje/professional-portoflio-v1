@@ -19,7 +19,7 @@ const Aside = ({data, scrollTo}) => {
                         const {id, url, text, icon, color} = item
                         return (
                             <li key={id} className="li">
-                                <Link to={url} onClick={()=>openUrl(url)}>
+                                <Link onClick={()=>openUrl(url)}>
                                     <span style={{background: 'transparent', color: `${color}`, fontSize: '1.5rem'}}>{icon}</span>
                                     <span className="txt">{text}</span>
                                 </Link>
