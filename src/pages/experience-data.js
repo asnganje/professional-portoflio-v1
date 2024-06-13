@@ -31,7 +31,11 @@ export const data = [
       },
       {
         id: nanoid(),
-        task: 'Project presentation'
+        task: 'Development of MERN Stack Applications - MongoDB, ExpressJs, ReactJs, NodeJs, Tailwind CSS'
+      },
+      {
+        id: nanoid(),
+        task: 'Professional web-based project presentation'
       }
     ]
     },
