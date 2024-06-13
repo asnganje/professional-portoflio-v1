@@ -15,7 +15,7 @@ const About = () => {
                 </blockquote>
                 <p>
                 My career has been diverse, spanning roles as a 
-                fisherman, a local authority employee of 
+                fishermen trainer on blue economy, a local authority employee of 
                 the year, frontend developer in a tour 
                 firm website, mentor at an online coding school, 
                 FullStack developer, and a small business owner. Throughout these experiences, 
