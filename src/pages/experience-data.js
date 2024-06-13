@@ -9,31 +9,6 @@ import cgk from '../assets/cgk.png';
 export const data = [
   {
     id: nanoid(),
-    logo: pemba,
-    companyUrl:'https://pembaparadise.com/',
-    companyName: 'Pemba Beach Resort',
-    role: 'Web Developer',
-    companyDesc: 'Tour firm specializing in providing hotel services in Zanzibar',
-    period: 'Jan, 2024 - To Date',
-    location: 'Zanzibar',
-    responsibilities: [
-      {
-        id: nanoid(),
-        task: 'Development of the hotel\'s main website'
-      },
-      {
-        id: nanoid(),
-        task: 'Creating and configuring the hotel\'s OVH accounts'
-      },
-      {
-        id: nanoid(),
-        task: 'Deployment of the website'
-      }
-    ]
-
-  },
-  {
-    id: nanoid(),
     logo: edureka,
     companyUrl:'https://www.edureka.co/',
     companyName: 'Fullstack Internship Program - MERN Technologies',
@@ -59,6 +34,34 @@ export const data = [
         task: 'Project presentation'
       }
     ]
+    },
+    {
+      id: nanoid(),
+      logo: pemba,
+      companyUrl:'https://pembaparadise.com/',
+      companyName: 'Pemba Paradise Resort',
+      role: 'Web Developer',
+      companyDesc: 'Tour firm specializing in providing hotel services in Zanzibar',
+      period: 'Jan, 2024 - May, 2024',
+      location: 'Zanzibar',
+      responsibilities: [
+        {
+          id: nanoid(),
+          task: 'Development of the hotel\'s main website'
+        },
+        {
+          id: nanoid(),
+          task: 'Creating and configuring the hotel\'s OVH accounts'
+        },
+        {
+          id: nanoid(),
+          task: 'Deployment of the website'
+        },
+        {
+          id: nanoid(),
+          task: 'Website monitoring, maintenance and update'
+        }
+      ]
     },
     {
       id: nanoid(),
@@ -111,7 +114,7 @@ export const data = [
       companyName: 'Kwale County Government',
       role: 'Vocational Training Officer - IT section',
       companyDesc: 'Local authority division of vocational training focusing on imparting skills',
-      period: 'Jan, 2015 - Date',
+      period: 'Jan, 2015 - Dec, 2022',
       location: 'Kwale, Kenya',
       responsibilities: [
         {
