@@ -1,12 +1,52 @@
 import { nanoid } from "nanoid";
 import tecafili from '../assets/tecafili.jpg';
 import rakol from '../assets/rakol.png';
-import pemba from '../assets/pemba.png';
 import microverse from '../assets/microverse.png';
 import edureka from '../assets/edureka.png';
 import cgk from '../assets/cgk.png';
+import gemstone from '../assets/gemstone.png'
 
 export const data = [
+  {
+    id: nanoid(),
+    logo: gemstone,
+    companyUrl:'https://www.gemstone.co/',
+    companyName: 'Gemstone Technoglobal',
+    role: 'FrontEnd developer',
+    companyDesc: 'A software development company based in Kenya',
+    period: 'June, 2024 - To Date',
+    location: 'Nairobi, Kenya',
+    responsibilities: [
+      {
+        id: nanoid(),
+        task: 'Creating responsive and dynamic web interfaces using ReactJs, TypeScript, Tailwind CSS and Shadcn/ui.'
+      },
+      {
+        id: nanoid(),
+        task: 'Code Optimization: Writing clean, efficient, and maintainable code, ensuring high performance across different devices and browsers.'
+      },
+      {
+        id: nanoid(),
+        task: 'API Integration: Utilizing Axios for making HTTP requests and integrating backend services with the frontend.'
+      },
+      {
+        id: nanoid(),
+        task: 'State Management: Using Redux Toolkit to maintain a consistent application state.'
+      },
+      {
+        id: nanoid(),
+        task: 'Code Quality: Ensuring code quality through rigorous testing, code reviews, and adherence to industry best practices.'
+      },
+      {
+        id: nanoid(),
+        task: 'Continuous Improvement: Engaging in continuous learning and applying new technologies and frameworks to enhance the product.'
+      },
+      {
+        id: nanoid(),
+        task: 'Collaboration: Working in an Agile environment, participating in daily stand-ups, sprint planning, and retrospectives to ensure timely delivery of features.'
+      }
+    ]
+    },
   {
     id: nanoid(),
     logo: edureka,
@@ -38,34 +78,6 @@ export const data = [
         task: 'Professional web-based project presentation'
       }
     ]
-    },
-    {
-      id: nanoid(),
-      logo: pemba,
-      companyUrl:'https://pembaparadise.com/',
-      companyName: 'Pemba Paradise Resort',
-      role: 'Web Developer',
-      companyDesc: 'Tour firm specializing in providing hotel services in Zanzibar',
-      period: 'Jan, 2024 - May, 2024',
-      location: 'Zanzibar',
-      responsibilities: [
-        {
-          id: nanoid(),
-          task: 'Development of the hotel\'s main website'
-        },
-        {
-          id: nanoid(),
-          task: 'Creating and configuring the hotel\'s OVH accounts'
-        },
-        {
-          id: nanoid(),
-          task: 'Deployment of the website'
-        },
-        {
-          id: nanoid(),
-          task: 'Website monitoring, maintenance and update'
-        }
-      ]
     },
     {
       id: nanoid(),
