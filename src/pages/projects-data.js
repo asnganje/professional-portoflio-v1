@@ -3,10 +3,39 @@ import calc from '../assets/calcApp.png'
 import coin from '../assets/coinApp.png'
 import netflix from '../assets/netflix.png'
 import turkey from '../assets/turkey.png'
-import books from '../assets/books.png'
+import zan from '../assets/zan.png'
 import movies from '../assets/movies.jpg'
 
 export const data = [
+  {
+    id: nanoid(), 
+    title:'Zan Extreme Holidays and Wildlife safaris',
+    icon: zan,
+    desc: 'A fully responsive, dynamic single-page application enabling users to read, analyze, and make informed travel decisions for their tourism needs. It features dark and light mode toggling for smooth view',
+    url: 'https://gleaming-gelato-22b068.netlify.app/',
+    technologies: [
+      {
+        id: nanoid(),
+        tech: 'TypeScript'
+      },
+      {
+        id: nanoid(),
+        tech: 'React'
+      },
+      {
+        id: nanoid(),
+        tech: 'Redux'
+      },
+      {
+        id: nanoid(),
+        tech: 'Tailwind CSS'
+      },
+      {
+        id: nanoid(),
+        tech: 'Shadcn/ui'
+      }
+    ]
+  },
   {
     id: nanoid(), 
     title:'Global Cryptocurrency App',
@@ -134,27 +163,6 @@ export const data = [
         id: nanoid(),
         tech: 'Redux'
       },
-      {
-        id: nanoid(),
-        tech: 'JavaScript'
-      },
-      {
-        id: nanoid(),
-        tech: 'CSS3'
-      },
-      {
-        id: nanoid(),
-        tech: 'HTML5'
-      }
-    ]
-  },
-  {
-    id: nanoid(), 
-    title:'Awesome Books',
-    icon: books,
-    desc: 'This project is about a website that displays display a list of books added by a user. It allows one to add and remove books from that list.',
-    url: 'https://asnganje.github.io/awesomebookES6/',
-    technologies: [
       {
         id: nanoid(),
         tech: 'JavaScript'
