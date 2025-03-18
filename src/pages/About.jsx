@@ -28,7 +28,7 @@ const About = () => {
                 <h3>
                     <strong>Current Focus:</strong>
                     <a href="https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/" target="_blank">
-                    The MERN Stack
+                    Ruby on Rails 
                     </a>
                 </h3>
             </div>
