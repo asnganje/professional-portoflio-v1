@@ -61,11 +61,6 @@ const data = [
     },
     {
       id: nanoid(),
-      desc: 'javascript',
-      display:js
-    }, 
-    {
-      id: nanoid(),
       desc: 'nodejs',
       display:node
     },
