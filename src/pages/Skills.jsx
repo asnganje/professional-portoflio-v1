@@ -16,37 +16,6 @@ import redux from '../assets/redux.png'
 const data = [
   {
     id: nanoid(),
-    title: 'FrontEnd',
-    items: [
-      {
-        id:nanoid(),
-        desc: 'html',
-        display:html
-      }, 
-      {
-        id: nanoid(),
-        desc: 'javascript',
-        display:js
-      },
-      {
-        id:nanoid(),
-        desc: 'css',
-        display:css
-      }, 
-      {
-        id: nanoid(),
-        desc: 'react',
-        display:react
-      },
-      { 
-        id: nanoid(),
-        desc: 'redux',
-        display: redux
-      }
-    ]
-  },
-  {
-    id: nanoid(),
     title: 'BackEnd',
     items: [
     {
@@ -73,6 +42,37 @@ const data = [
       id: nanoid(),
       desc: 'postgres',
       display:postgres
+    },
+    {
+      id: nanoid(),
+      title: 'FrontEnd',
+      items: [
+        {
+          id:nanoid(),
+          desc: 'html',
+          display:html
+        }, 
+        {
+          id: nanoid(),
+          desc: 'javascript',
+          display:js
+        },
+        {
+          id:nanoid(),
+          desc: 'css',
+          display:css
+        }, 
+        {
+          id: nanoid(),
+          desc: 'react',
+          display:react
+        },
+        { 
+          id: nanoid(),
+          desc: 'redux',
+          display: redux
+        }
+      ]
     }
   ]
   },
