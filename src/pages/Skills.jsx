@@ -1,5 +1,7 @@
 import { nanoid } from "nanoid";
 import { Header } from "../components";
+import ror from '../assets/RoR.png';
+import ruby from '../assets/ruby.png';
 import js from '../assets/javascript.png'
 import css from '../assets/css3.png'
 import react from '../assets/react.png'
@@ -47,6 +49,16 @@ const data = [
     id: nanoid(),
     title: 'BackEnd',
     items: [
+    {
+      id: nanoid(),
+      desc: 'Ruby',
+      display:ruby
+    },
+    {
+      id: nanoid(),
+      desc: 'Ruby on Rails',
+      display:ror
+    },
     {
       id: nanoid(),
       desc: 'javascript',
