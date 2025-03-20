@@ -755,3 +755,7 @@ blockquote {
   height: 2rem;
   color: #fff;
 }
+
+.focus {
+  text-decoration: red;
+}
