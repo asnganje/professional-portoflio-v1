@@ -26,8 +26,8 @@ const About = () => {
                     As a web developer, I leverage my meticulous attention to detail, unwavering passion for creation, and purpose-driven work ethic to make a tangible difference. This is why I'm eager to contribute to a rapidly growing company and drive significant impact.
                 </p>
                 <h3 className="focus">
-                    <strong>Current Focus:</strong>
-                    <a href="https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/" target="_blank">
+                    <strong className="focusText">Current Focus:</strong>
+                    <a href="https://www.freecodecamp.org/news/mern-stack-roadmap-what-you-need-to-know-to-build-full-stack-apps/" target="_blank" className="focusText">
                     Ruby on Rails 
                     </a>
                 </h3>

@@ -48,7 +48,7 @@ const Awards = () => {
 				const {id, title, location, desc} = item
 				return(
 					<div key={id} className="div-award-item">
-						<h3>{title}</h3>
+						<h3 className="award-title">{title}</h3>
 						<p>{location}</p>
 						<ul>
 							<li>{desc}</li>

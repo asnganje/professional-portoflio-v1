@@ -186,9 +186,6 @@ main {
 
 .edu, 
 .cont, 
-/* .exp, */
-/* .skill, */
-/* .project, */
 .land {
     height: 100vh;
     position:relative; 
@@ -252,11 +249,11 @@ main {
     }
 }
 .things {
-    background-color: #008073;
+    background-color: red;
 }
 
 .diff {
-    border-bottom: 0.3rem solid #008073;
+    border-bottom: 0.3rem solid red;
 }
 
 .cont{
@@ -269,7 +266,7 @@ main {
     justify-content:left;
     width: 100%;
     height: 5rem;
-    background-color: #008073;
+    background-color: #e30e0e;
 }
 
 .heading h3{
@@ -294,7 +291,7 @@ main {
 }
 
 .contact-a {
-    color: #009688;
+    color: #e30e0e;
     font-family: 'Roboto', sans-serif;
     line-height: 1.5;
     font-size: 1.3rem;
@@ -756,6 +753,18 @@ blockquote {
   color: #fff;
 }
 
-.focus {
-  text-decoration: red;
+.focusText {
+  color:#e30e0e
+}
+
+.award-title {
+  color: #e30e0e;
+}
+
+.edu-title {
+  color: #e30e0e;
+}
+
+.logo-text {
+  color: #e30e0e;
 }

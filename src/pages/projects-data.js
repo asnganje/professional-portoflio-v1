@@ -3,36 +3,36 @@ import calc from '../assets/calcApp.png'
 import coin from '../assets/coinApp.png'
 import netflix from '../assets/netflix.png'
 import turkey from '../assets/turkey.png'
-import zan from '../assets/zan.png'
+import chat from '../assets/chatApp.png'
 import movies from '../assets/movies.jpg'
 
 export const data = [
   {
     id: nanoid(), 
-    title:'Zan Extreme Holidays and Wildlife safaris',
-    icon: zan,
-    desc: 'A fully responsive, dynamic single-page application enabling users to read, analyze, and make informed travel decisions for their tourism needs. It features dark and light mode toggling for smooth view',
-    url: 'https://gleaming-gelato-22b068.netlify.app/',
+    title:'Chat App',
+    icon: chat,
+    desc: 'A real-time chat application built with Ruby on Rails, leveraging WebSockets for instant messaging. It features a responsive UI with Tailwind CSS and supports CRUD operations for managing messages and conversations. The app ensures seamless, real-time communication using Rails\' ActionCable making it scalable and efficient for various use cases.',
+    url: 'https://github.com/asnganje/chat_app',
     technologies: [
       {
         id: nanoid(),
-        tech: 'TypeScript'
+        tech: 'Ruby'
       },
       {
         id: nanoid(),
-        tech: 'React'
+        tech: 'Ruby on Rails'
       },
       {
         id: nanoid(),
-        tech: 'Redux'
+        tech: 'ActionCable'
+      },
+      {
+        id: nanoid(),
+        tech: 'Web Sockets'
       },
       {
         id: nanoid(),
         tech: 'Tailwind CSS'
-      },
-      {
-        id: nanoid(),
-        tech: 'Shadcn/ui'
       }
     ]
   },

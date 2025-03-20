@@ -41,7 +41,7 @@ const Education = () => {
 				const {id, title, location, cert, achieve} = item
 				return(
 					<div key={id} className="edu-items-div">
-						<h3>{title}</h3>
+						<h3 className="edu-title">{title}</h3>
 						<p>{location}</p>
 						<ul className="edu-ul">
 							<li>{cert}</li>
