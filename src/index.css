@@ -1,12 +1,13 @@
 *{
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 main {
-    min-width: 100vw;
-    min-height: 100vh;
+  min-width: 100%;
+  min-height: 100vh;
 }
+
 .main-nav {
     top: 0;
     display: grid;
@@ -37,7 +38,7 @@ main {
     animation: bounce 3s ease-in-out infinite;
 }
 
-@keyframes bounce {
+/* @keyframes bounce {
     0% {
         transform: scale(1);
     }
@@ -47,7 +48,7 @@ main {
     100% {
         transform: scale(1);
     }
-}
+} */
 
 .logo-div {
     display: flex;
@@ -97,6 +98,15 @@ main {
 }
 
 @media screen and (min-width: 992px) {
+  .navbar-div {
+    position: fixed;
+    height: 20vh;
+    padding: 1rem;
+    border-bottom: 1px solid grey;
+  }
+}
+
+@media screen and (min-width: 992px) {
     .hamburger{
         display: none;
     }
@@ -116,14 +126,14 @@ main {
 
     .navbar-div {
         position: fixed;
-        width: 17%;
+        width: 16%;
         height: 20vh;
         padding: 1rem;
         border-bottom: 1px solid grey;
     }
 
     .outlet {
-        flex-grow: 1;
+        /* flex-grow: 1; */
         width: 80vw;
     }
     .navbar-div {
@@ -152,7 +162,7 @@ main {
     grid-template-columns: 1fr;
     row-gap: 1.5rem;
     padding: 1rem;
-    width: 17vw;
+    width: 16%;
     font-family: sans-serif;
 }
 
@@ -221,8 +231,8 @@ main {
 
 .profile-pic {
     position: absolute;
-    width: 20rem;
-    height: 20rem;
+    width: 25%;
+    height: 40%;
     bottom: 5rem;
     right: 5rem;
     border-radius: 50%;
@@ -231,6 +241,21 @@ main {
     box-shadow: 10px 10px 15px rgb(204, 196, 196);
     object-fit: cover;
 
+}
+
+@media screen and (max-width: 767px) {
+  .profile-pic {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom: 2%;
+    right: 40%;
+    border-radius: 50%;
+    border: transparent;
+    background: transparent;
+    box-shadow: 10px 10px 15px rgb(204, 196, 196);
+    object-fit: cover;
+  }
 }
 
 .top-desc {
@@ -288,6 +313,10 @@ main {
     row-gap: 5rem;
     padding-left: 3rem;
     padding-top: 5rem;
+}
+
+.contact-p {
+  width: 100%;
 }
 
 .contact-a {

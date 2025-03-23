@@ -8,7 +8,7 @@ const Contact = () => {
 return <div className="cont">
                 <Header title="Contact"/>
                 <div className="contact-details">
-                        <p>
+                        <p className="contact-p">
                                 <a className="contact-a" href={`mailto: ${recipient}`} target="_blank">
                                         <span className="contact-span">
                                                 <MdEmail />        
@@ -16,7 +16,7 @@ return <div className="cont">
                                         abd.nganje@gmail.com
                                 </a>
                         </p>
-                        <p>
+                        <p className="contact-p">
                           <a className="contact-a" href="https://github.com/asnganje" target="_blank">
                                         <span className="contact-span">
                                                 <FaGithub />        
@@ -24,8 +24,8 @@ return <div className="cont">
                                         https://github.com/asnganje
                                 </a>
                         </p>
-                        <p>
-                           <a className="contact-a" href="https://www.linkedin.com/in/abdulrahman-nganje/" target="_blank">
+                        <p className="contact-p">
+                          <a className="contact-a" href="https://www.linkedin.com/in/abdulrahman-nganje/" target="_blank">
                                         <span className="contact-span">
                                                 <FaLinkedinIn/>        
                                         </span>
