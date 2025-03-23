@@ -4,7 +4,6 @@
 }
 
 main {
-  min-width: 100%;
   min-height: 100vh;
 }
 
@@ -130,16 +129,12 @@ main {
         height: 20vh;
         padding: 1rem;
         border-bottom: 1px solid grey;
-    }
-
-    .outlet {
-        /* flex-grow: 1; */
-        width: 80vw;
-    }
-    .navbar-div {
         background: #fafafa;
     }
 
+    .outlet {
+        width: 80vw;
+    }
 }
 
 .sidebar-container-bg-screen {
@@ -243,7 +238,34 @@ main {
 
 }
 
+@media screen and (max-width:320px) {
+  .contact-details a{
+    width: 50vw;
+    font-size: 5px;
+  }
+}
+
+
 @media screen and (max-width: 767px) {
+  .contact-details a{
+    width: 50vw;
+    font-size: 15px;
+  }
+  .contact-details {
+    display: grid;
+    height: 5vh;
+    grid-template-columns: 1fr;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+
+   .contact-span {
+    visibility: hidden;
+   }
+  .contact-span svg{
+    display: none;
+  }
+
   .profile-pic {
     position: absolute;
     width: 30%;
@@ -313,10 +335,6 @@ main {
     row-gap: 5rem;
     padding-left: 3rem;
     padding-top: 5rem;
-}
-
-.contact-p {
-  width: 100%;
 }
 
 .contact-a {

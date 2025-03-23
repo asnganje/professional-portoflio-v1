@@ -11,7 +11,7 @@ return <div className="cont">
                         <p className="contact-p">
                                 <a className="contact-a" href={`mailto: ${recipient}`} target="_blank">
                                         <span className="contact-span">
-                                                <MdEmail />        
+                                          <MdEmail />        
                                         </span>
                                         abd.nganje@gmail.com
                                 </a>
@@ -19,7 +19,7 @@ return <div className="cont">
                         <p className="contact-p">
                           <a className="contact-a" href="https://github.com/asnganje" target="_blank">
                                         <span className="contact-span">
-                                                <FaGithub />        
+                                          <FaGithub />        
                                         </span>
                                         https://github.com/asnganje
                                 </a>
@@ -27,7 +27,7 @@ return <div className="cont">
                         <p className="contact-p">
                           <a className="contact-a" href="https://www.linkedin.com/in/abdulrahman-nganje/" target="_blank">
                                         <span className="contact-span">
-                                                <FaLinkedinIn/>        
+                                          <FaLinkedinIn/>        
                                         </span>
                                         https://www.linkedin.com/in/abdulrahman-nganje/
                                 </a>
