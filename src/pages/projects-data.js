@@ -4,9 +4,35 @@ import coin from '../assets/coinApp.png'
 import netflix from '../assets/netflix.png'
 import turkey from '../assets/turkey.png'
 import chat from '../assets/chatApp.png'
-import movies from '../assets/movies.jpg'
+import alpha from '../assets/alpha.png'
+
 
 export const data = [
+  {
+    id: nanoid(), 
+    title:'Alpha Blog - App',
+    icon: alpha,
+    desc: 'A Ruby on Rails-based blogging application showcasing key features like one-to-many and many-to-many relationships, user authentication with admin privileges, and full CRUD operations. It includes pagination for efficient data handling and demonstrates essential Rails concepts such as validations, associations, and authorization.',
+    url: 'https://github.com/asnganje/alpha-blog',
+    technologies: [
+      {
+        id: nanoid(),
+        tech: 'Ruby on Rails'
+      },
+      {
+        id: nanoid(),
+        tech: 'Ruby'
+      },
+      {
+        id: nanoid(),
+        tech: 'Bootstrap'
+      },
+      {
+        id: nanoid(),
+        tech: 'HTML5'
+      }
+    ]
+  },
   {
     id: nanoid(), 
     title:'Chat App',
@@ -147,34 +173,5 @@ export const data = [
         tech: 'HTML5'
       }
     ]
-  },
-  {
-    id: nanoid(), 
-    title:'Movies and Songs App',
-    icon: movies,
-    desc: 'This is a simple redux with significant redux logic. It entails an application that uses the redux concept to manage random movies and songs.',
-    url: 'https://github.com/asnganje/movieStore',
-    technologies: [
-      {
-        id: nanoid(),
-        tech: 'ReactJs'
-      },
-      {
-        id: nanoid(),
-        tech: 'Redux'
-      },
-      {
-        id: nanoid(),
-        tech: 'JavaScript'
-      },
-      {
-        id: nanoid(),
-        tech: 'CSS3'
-      },
-      {
-        id: nanoid(),
-        tech: 'HTML5'
-      }
-    ]
-  },
+  }
 ]
