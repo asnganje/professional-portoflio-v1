@@ -23,9 +23,9 @@ const Experience = () => {
                       return(
                         <div key={id} className="exp-item">
                           <div className="exp-item-header">
-                            <span className={companyName === 'Pemba Beach Resort' && 'addBg'}>
+                            {/* <span className={companyName === 'Pemba Beach Resort' && 'addBg'}>
                               <img src={logo} alt={companyName} />
-                            </span>
+                            </span> */}
                             <a href={companyUrl} target="_blank">
                               {companyName}
                             </a>
