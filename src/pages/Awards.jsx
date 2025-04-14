@@ -3,6 +3,12 @@ import { nanoid } from "nanoid";
 const data = [
         {
         id: nanoid(),
+        title: 'Prolific Padawan - Trophy (Award)',
+        location: 'Exercism.io|Remote| 2025',
+        desc:  'Successfully completed 20 hands-on Ruby exercises, strengthening my skills in object-oriented programming, control structures, and problem-solving using clean and idiomatic Ruby code.'
+        },
+        {
+        id: nanoid(),
         title: 'best code presenter',
         location: 'Edureka | 2024',
         desc:  'Chosen by students and the instructor as the best code presenter during project presentations.'
