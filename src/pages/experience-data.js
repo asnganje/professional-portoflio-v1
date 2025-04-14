@@ -5,8 +5,77 @@ import microverse from '../assets/microverse.png';
 import edureka from '../assets/edureka.png';
 import cgk from '../assets/cgk.png';
 import gemstone from '../assets/gemstone.png'
+import exercism from '../assets/exercism.svg'
 
 export const data = [
+  {
+    id: nanoid(),
+    logo: exercism,
+    companyUrl:'https://exercism.org/dashboard',
+    companyName: 'Exercism',
+    role: 'Ruby Mentor',
+    companyDesc: 'an open-source platform that helps developers improve their coding skills through hands-on practice and mentorship.',
+    period: 'April, 2025 - To Date',
+    location: 'United Kingdom',
+    responsibilities: [
+      {
+        id: nanoid(),
+        task: 'Review and provide feedback on Ruby exercises submitted by junior developers worldwide.'
+      },
+      {
+        id: nanoid(),
+        task: 'Explain Ruby concepts, idiomatic patterns, and best practices to developers of varying skill levels.'
+      },
+      {
+        id: nanoid(),
+        task: 'Help junior developers debug code and improve problem-solving techniques.'
+      },
+      {
+        id: nanoid(),
+        task: 'Encourage clean, readable code and test-driven development (TDD)'
+      },
+      {
+        id: nanoid(),
+        task: 'Contribution to the open-source learning community by supporting continuous learning.'
+      }
+    ]
+  },
+  {
+    id: nanoid(),
+    logo: "",
+    companyUrl:'https://mern-nganje-portfolio.netlify.app/',
+    companyName: 'FreeLance',
+    role: 'Ruby on Rails developer',
+    companyDesc: 'Freelance passionate Ruby on Rails Developer',
+    period: 'Jan, 2025 - To Date',
+    location: 'Mombasa, Kenya',
+    responsibilities: [
+      {
+        id: nanoid(),
+        task: 'Build and maintain web apps using Ruby on Rails (MVC, REST).'
+      },
+      {
+        id: nanoid(),
+        task: 'Design and optimize PostgreSQL/MySQL databases.'
+      },
+      {
+        id: nanoid(),
+        task: 'Integrate APIs (Stripe, twelvedata, OAuth) and authentication (Devise).'
+      },
+      {
+        id: nanoid(),
+        task: 'Writing testable, maintainable code with RSpec and TDD practices.'
+      },
+      {
+        id: nanoid(),
+        task: 'Code Quality: Ensuring code quality through rigorous testing, code reviews, and adherence to industry best practices.'
+      },
+      {
+        id: nanoid(),
+        task: 'Continuous Improvement: Engaging in continuous learning and applying new technologies and frameworks to enhance the product.'
+      },
+    ]
+  },
   {
     id: nanoid(),
     logo: gemstone,
